@@ -1,0 +1,35 @@
+.header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-bottom: 100px;
+}
+
+.header__element {
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+a {
+  text-decoration: none;
+  color: #111111;
+  transition: font-size 0.3s ease, color 0.3s ease;
+}
+
+a:hover {
+  color: #b06941;
+  font-size: 20px;
+}
+
+@media screen and (max-width: 991px) {
+  .header {
+    margin-bottom: 53px;
+    font-weight: 400;
+  }
+}
+
+@media screen and (max-width: 871px) {
+.header__element-extra{
+  display: none;
+}
+}

@@ -1,0 +1,5 @@
+@import url(./vendor/normalize.css);
+@font-face {
+  font-family: "SF Pro Display";
+  src: url("../src/vendor/fonts/SF-Pro-Display-Regular.otf") format("truetype");
+}
