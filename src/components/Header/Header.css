@@ -21,6 +21,12 @@ a:hover {
   font-size: 20px;
 }
 
+@media screen and (max-width: 1200px) {
+  .header__element {
+    margin-top: 0;
+  }
+}
+
 @media screen and (max-width: 991px) {
   .header {
     margin-bottom: 53px;
@@ -29,7 +35,7 @@ a:hover {
 }
 
 @media screen and (max-width: 871px) {
-.header__element-extra{
-  display: none;
-}
+  .header__element-extra {
+    display: none;
+  }
 }
