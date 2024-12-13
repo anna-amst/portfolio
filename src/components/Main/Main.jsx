@@ -7,7 +7,7 @@ function Main() {
             <div className="main__headings">
             <h1 className="main__title main__title--primary">A FRONT END DEVELOPER/</h1>
             <h2 className="main__title main__title--secondary">DESIGNER</h2>
-            <p className="main__location">{'{ BASED IN BOSTON, MA}' }</p>
+            <p className="main__location">{'{ BASED IN BOSTON, MA }' }</p>
             </div>
             <div className="main__content">
                 <p className="main__description">{'{ javascript, react, node }' }</p>
